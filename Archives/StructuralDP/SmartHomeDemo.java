@@ -196,12 +196,10 @@ class TimerControlled extends DeviceDecorator {
         return s;
     }
 
-    public void tick() {
+    public void simulateTimerExpiry() {
         if (timerRunning) {
-            timerSeconds--;
-            if (timerSeconds <= 0) {
-                deactivate();
-            }
+            System.out.println("    >> Timer expired — auto-deactivating.");
+            deactivate();
         }
     }
 }
@@ -327,6 +325,10 @@ class Room implements SmartDevice {
         }
         return sb.toString();
     }
+    @Override
+    public String getDeviceType() {
+        return "Room";
+    }
 }
 
 // Home is basically Room's logic copy-pasted with "rooms" instead of "devices"
@@ -407,130 +409,12 @@ class Home implements SmartDevice {
             sb.append("\n").append(r.getStatus());
         return sb.toString();
     }
-}
-
-class AccessRestricted extends DeviceDecorator {
-    int pin;
-    boolean locked;
-
-    AccessRestricted(SmartDevice wrapped, int pin) {
-        super(wrapped);
-        this.pin = pin;
-        this.locked = true;
-    }
-
     @Override
-    public void activate() {
-        if (!locked) {
-            wrapped.activate();
-        }
-    }
-
-    @Override
-    public void deactivate() {
-        if (!locked) {
-            wrapped.deactivate();
-        }
-    }
-
-    @Override
-    public double getPowerUsage() {
-        return wrapped.getPowerUsage();
-    }
-
-    @Override
-    public String getStatus() {
-        String status = wrapped.getStatus();
-        if (locked) {
-            status += " [LOCKED]";
-        }
-        return status;
-    }
-
-    public void unlock(int inputPin) {
-        if (inputPin == pin) {
-            locked = false;
-        }
+    public String getDeviceType() {
+        return "Home";
     }
 }
 
-class TimerControlled extends DeviceDecorator {
-    int timerSeconds;
-    boolean timerRunning;
-
-    TimerControlled(SmartDevice wrapped, int timerSeconds) {
-        super(wrapped);
-        this.timerSeconds = timerSeconds;
-        this.timerRunning = false;
-    }
-
-    @Override
-    public void activate() {
-        wrapped.activate();
-        timerRunning = true;
-    }
-
-    @Override
-    public void deactivate() {
-        wrapped.deactivate();
-        timerRunning = false;
-    }
-
-    @Override
-    public double getPowerUsage() {
-        return wrapped.getPowerUsage();
-    }
-
-    @Override
-    public String getStatus() {
-        String status = wrapped.getStatus();
-        if (timerRunning) {
-            status += " (auto-off in " + timerSeconds + "s)";
-        }
-        return status;
-    }
-
-    public void simulateTimerExpiry() {
-        if (timerRunning) {
-            wrapped.deactivate();
-            timerRunning = false;
-        }
-    }
-}
-
-class PowerThrottled extends DeviceDecorator {
-    double powerCap;
-
-    PowerThrottled(SmartDevice wrapped, double powerCap) {
-        super(wrapped);
-        this.powerCap = powerCap;
-    }
-
-    @Override
-    public void activate() {
-        wrapped.activate();
-    }
-
-    @Override
-    public void deactivate() {
-        wrapped.deactivate();
-    }
-
-    @Override
-    public double getPowerUsage() {
-        double usage = wrapped.getPowerUsage();
-        return Math.min(usage, powerCap);
-    }
-
-    @Override
-    public String getStatus() {
-        String status = wrapped.getStatus();
-        if (wrapped.getPowerUsage() > powerCap) {
-            status += " [throttled to " + powerCap + "W]";
-        }
-        return status;
-    }
-}
 
 // EcoMode and GuestMode are not implemented as decorators because they operate
 // at the Room level, not the individual device level. They are implemented as
@@ -630,11 +514,9 @@ public class SmartHomeDemo {
 
         Room living = new Room("Living Room");
         living.addLight(new SmartLight());
-        living.addSpeaker(new SmartSpeaker());
 
         Room bedroom = new Room("Bedroom");
-        bedroom.addLight(new SmartLight());
-        bedroom.addThermostat(new SmartThermostat());
+
 
         Home home = new Home("My Home");
         home.addRoom(living);
