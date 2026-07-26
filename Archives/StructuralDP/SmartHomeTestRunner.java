@@ -5,7 +5,7 @@
  * No JUnit or external libraries needed — just compile and run.
  *
  * Usage:
- *   javac SmartHomeTestRunner.java SmartHomeDemo.java
+ *   javac SmartHomeTestRunner.java SmartHome.java
  *   java SmartHomeTestRunner
  *
  * After every refactor, run this. If anything breaks, you'll know exactly
@@ -618,7 +618,7 @@ public class SmartHomeTestRunner {
     }
 
     // ============================================================
-    //  HELPER 
+    //  HELPER
     // ============================================================
 
     static SmartDevice prepareForNight(SmartDevice entity) {
