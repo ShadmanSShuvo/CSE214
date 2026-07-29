@@ -35,7 +35,7 @@ abstract class Shape {
 // Refined Abstraction
 class Circle extends Shape {
 
-    private float radius;
+    private final float radius;
 
     public Circle(Renderer renderer, float radius) {
         super(renderer);
