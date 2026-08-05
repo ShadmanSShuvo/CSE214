@@ -1,0 +1,68 @@
+import type { MenuItem } from '../types';
+
+export const DEFAULT_MENU: MenuItem[] = [
+  {
+    code: 'B01',
+    name: 'Classic Burger',
+    category: 'Burger',
+    basePrice: 280,
+    description: 'Juicy seasoned beef patty with fresh lettuce, tomatoes, and house secret sauce on a toasted sesame bun.',
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'B02',
+    name: 'Cheese Burger',
+    category: 'Burger',
+    basePrice: 340,
+    description: 'Melted cheddar over double flame-grilled patties, caramelized onions, and signature smoky mayo.',
+    image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'P01',
+    name: 'Chicken Pizza',
+    category: 'Pizza',
+    basePrice: 620,
+    description: 'Tender spiced grilled chicken, bell peppers, mozzarella cheese, and rich tomato sauce on artisan crust.',
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'P02',
+    name: 'Margherita Pizza',
+    category: 'Pizza',
+    basePrice: 520,
+    description: 'Classic Neapolitan style pizza with fresh mozzarella, basil leaves, extra virgin olive oil, and tomato blend.',
+    image: 'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'D01',
+    name: 'Iced Tea',
+    category: 'Drink',
+    basePrice: 120,
+    description: 'Chilled freshly brewed black tea with lemon zest and mint leaf garnish.',
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'D02',
+    name: 'Lassi',
+    category: 'Drink',
+    basePrice: 160,
+    description: 'Traditional rich yogurt beverage blended with cardamom, saffron, and sweet rose syrup.',
+    image: 'https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'S01',
+    name: 'French Fries',
+    category: 'Sides',
+    basePrice: 180,
+    description: 'Golden crispy potato fries seasoned with sea salt and garlic herb blend.',
+    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    code: 'S02',
+    name: 'Nuggets',
+    category: 'Sides',
+    basePrice: 240,
+    description: 'Crispy fried bite-sized chicken breast nuggets served with honey mustard dipping sauce.',
+    image: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=600&q=80',
+  },
+];
