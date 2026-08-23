@@ -9,8 +9,8 @@ public class Main {
         DSW dsw = new DSW(coordinator);
         Student student = new Student(
                 coordinator,
-                "1905001",
-                "Rafiq");
+                "2305025",
+                "Shuvo");
 
         coordinator.register(dept);
         coordinator.register(ctrl);
