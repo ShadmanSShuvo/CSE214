@@ -22,8 +22,10 @@ public class AlertSubject implements Subject {
 
     @Override
     public void notifyObservers(Alert alert) {
-        for (AlertObserver observer : observers)
+        // Thread-safe iteration using an unmodifiable snapshot (Java 10+)
+        for (AlertObserver observer : List.copyOf(observers)) {
             observer.update(alert);
+        }
     }
 
     public boolean contains(AlertObserver observer) {

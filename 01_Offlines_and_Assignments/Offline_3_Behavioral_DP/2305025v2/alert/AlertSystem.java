@@ -11,10 +11,17 @@ public class AlertSystem {
             subjects.put(category, new AlertSubject(category));
     }
 
-    public Citizen register(String name) {
-        Citizen citizen = new Citizen(name);
-        citizens.put(name, citizen);
-        return citizen;
+    // Decoupled object creation: takes an existing Citizen object
+    public void register(Citizen citizen) {
+        citizens.put(citizen.getName(), citizen);
+    }
+
+    // Complete removal to prevent "Lapsed Listener" memory leaks
+    public void unregister(Citizen citizen) {
+        citizens.remove(citizen.getName());
+        for (AlertCategory category : AlertCategory.values()) {
+            unsubscribe(citizen, category);
+        }
     }
 
     public void subscribe(Citizen citizen, AlertCategory... categories) {
@@ -30,9 +37,7 @@ public class AlertSystem {
         subjects.get(alert.getCategory()).notifyObservers(alert);
     }
 
-    public boolean isSubscribed(
-            Citizen citizen,
-            AlertCategory category) {
+    public boolean isSubscribed(Citizen citizen, AlertCategory category) {
         return subjects.get(category).contains(citizen);
     }
 }
