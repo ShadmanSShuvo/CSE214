@@ -5,7 +5,12 @@ public class Alert {
     private final String severity;
     private final String instruction;
 
-    public Alert(String title, AlertCategory category, String location, String severity, String instruction) {
+    public Alert(
+            String title,
+            AlertCategory category,
+            String location,
+            String severity,
+            String instruction) {
         this.title = title;
         this.category = category;
         this.location = location;

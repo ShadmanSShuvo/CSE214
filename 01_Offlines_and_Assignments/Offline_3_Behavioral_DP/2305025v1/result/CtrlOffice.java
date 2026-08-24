@@ -1,6 +1,6 @@
-class ControllerOffice extends Colleague {
+class CtrlOffice extends Colleague {
 
-    public ControllerOffice(Coordinator coordinator) {
+    public CtrlOffice(Coordinator coordinator) {
         super(coordinator);
     }
 

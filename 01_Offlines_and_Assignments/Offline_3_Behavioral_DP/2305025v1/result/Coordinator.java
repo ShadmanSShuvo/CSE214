@@ -1,5 +1,11 @@
 interface Coordinator {
-    void register(Colleague colleague);
+    void register(DeptOffice dept);
+
+    void register(CtrlOffice ctrl);
+
+    void register(DSW dsw);
+
+    void register(Student student);
 
     void confirm(String id);
 

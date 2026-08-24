@@ -5,7 +5,7 @@ public class Main {
         Coordinator coordinator = new ResultCoord();
 
         DeptOffice dept = new DeptOffice(coordinator);
-        ControllerOffice ctrl = new ControllerOffice(coordinator);
+        CtrlOffice ctrl = new CtrlOffice(coordinator);
         DSW dsw = new DSW(coordinator);
         Student student = new Student(
                 coordinator,

@@ -22,7 +22,7 @@ public class AlertSubject implements Subject {
 
     @Override
     public void notifyObservers(Alert alert) {
-        for (AlertObserver observer:List.copyOf(observers))
+        for (AlertObserver observer : observers)
             observer.update(alert);
     }
 
