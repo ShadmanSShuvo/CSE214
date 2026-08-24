@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class ResultCoord implements Coordinator {
-    // Only tracking students and their states; no need to track Dept, Ctrl, or DSW.
     private final Map<String, Student> students = new HashMap<>();
     private final Map<String, Status> states = new HashMap<>();
 

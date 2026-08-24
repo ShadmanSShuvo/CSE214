@@ -17,17 +17,13 @@ public class Citizen implements AlertObserver {
     @Override
     public void update(Alert alert) {
         alerts.add(alert);
-        // Retaining the real-time console ping to demonstrate the Observer pushing data
         System.out.println(name + " <- " + alert.getSummary());
     }
 
-    // Securely expose the raw list data without allowing external modifications
     public List<Alert> getAlerts() {
         return Collections.unmodifiableList(alerts);
     }
 
-    // Separated presentation logic - formats the string instead of printing
-    // directly
     public String getFormattedAlertHistory() {
         StringBuilder sb = new StringBuilder();
         sb.append("\nNotifications: ").append(name).append("\n");

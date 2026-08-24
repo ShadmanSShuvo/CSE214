@@ -11,12 +11,10 @@ public class AlertSystem {
             subjects.put(category, new AlertSubject(category));
     }
 
-    // Decoupled object creation: takes an existing Citizen object
     public void register(Citizen citizen) {
         citizens.put(citizen.getName(), citizen);
     }
 
-    // Complete removal to prevent "Lapsed Listener" memory leaks
     public void unregister(Citizen citizen) {
         citizens.remove(citizen.getName());
         for (AlertCategory category : AlertCategory.values()) {
