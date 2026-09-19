@@ -12,7 +12,7 @@ A bicycle manufacturing plant produces different models of bicycles:
 - **The Commuter:** Aluminum Frame, Single Speed Gear, Road Tires.
 - **The Mountain Beast:** Carbon Fiber Frame, 12-Speed Gear, Off-road Grip Tires.
 
-Each bicycle comprises three key components: Frame, Gear System, and Tires. 
+Each bicycle comprises three key components: Frame, Gear System, and Tires.
 
 Use the **Builder Pattern** to construct `Bicycle` objects step by step. A `Director` class must coordinate the assembly sequence so that any bicycle model can be produced using the same uniform assembly workflow.
 
