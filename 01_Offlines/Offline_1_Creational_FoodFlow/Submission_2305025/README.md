@@ -1,8 +1,8 @@
 # FoodFlow: Submission Package (Student ID: 2305025)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 1 (Creational Design Patterns)  
-**Author:** Shadman S. Shuvo (`2305025`)  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 1 (Creational Design Patterns)
+**Author:** Shadman S. Shuvo (`2305025`)
 
 ---
 

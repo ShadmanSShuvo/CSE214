@@ -1,8 +1,8 @@
 # Offline 3: Official Submission Package (Student ID: 2305025)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 3 (Behavioral Design Patterns)  
-**Author:** Shadman S. Shuvo (`2305025`)  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 3 (Behavioral Design Patterns)
+**Author:** Shadman S. Shuvo (`2305025`)
 
 ---
 

@@ -1,8 +1,8 @@
 # BUET CSE 214: Software Engineering & Object-Oriented Design Patterns Sessional
 
-**Department of Computer Science and Engineering**  
-**Bangladesh University of Engineering and Technology (BUET)**  
-**Student ID:** `2305025`  
+**Department of Computer Science and Engineering**
+**Bangladesh University of Engineering and Technology (BUET)**
+**Student ID:** `2305025`
 **Course Code:** CSE 214 | **Course Title:** Software Engineering Sessional / Object-Oriented Programming Language Sessional
 
 ---

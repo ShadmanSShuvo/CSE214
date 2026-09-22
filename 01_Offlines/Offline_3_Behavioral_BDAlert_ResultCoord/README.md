@@ -1,9 +1,9 @@
 # Offline 3: Disaster Alert & BUET Result Coordinator (Behavioral Patterns)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 3 (Behavioral Design Patterns)  
-**Student ID:** `2305025`  
-**Core Patterns:** **Observer Pattern** (Task 1), **Mediator Pattern** (Task 2)  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 3 (Behavioral Design Patterns)
+**Student ID:** `2305025`
+**Core Patterns:** **Observer Pattern** (Task 1), **Mediator Pattern** (Task 2)
 
 ---
 

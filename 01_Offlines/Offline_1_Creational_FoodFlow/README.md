@@ -1,9 +1,9 @@
 # Offline 1: FoodFlow — Restaurant Ordering & Menu Engine
 
-**Course:** BUET CSE 214: Software Engineering & Object-Oriented Design Patterns Sessional  
-**Assignment:** Offline 1 (Creational Design Patterns)  
-**Student ID:** `2305025`  
-**Core Patterns:** **Builder Pattern**, **Factory Method Pattern**, **Singleton Pattern**  
+**Course:** BUET CSE 214: Software Engineering & Object-Oriented Design Patterns Sessional
+**Assignment:** Offline 1 (Creational Design Patterns)
+**Student ID:** `2305025`
+**Core Patterns:** **Builder Pattern**, **Factory Method Pattern**, **Singleton Pattern**
 
 ---
 

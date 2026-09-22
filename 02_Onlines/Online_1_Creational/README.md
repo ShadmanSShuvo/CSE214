@@ -1,7 +1,7 @@
 # Online 1: Creational Design Patterns
 
-**Course:** BUET CSE 214: Software Engineering & Object-Oriented Design Patterns Sessional  
-**Focus:** Creational Design Patterns across Batches 21, 22, and 23  
+**Course:** BUET CSE 214: Software Engineering & Object-Oriented Design Patterns Sessional
+**Focus:** Creational Design Patterns across Batches 21, 22, and 23
 
 ---
 

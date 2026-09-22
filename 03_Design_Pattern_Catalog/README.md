@@ -70,7 +70,7 @@ This catalog features theoretical foundations, architectural UML diagrams, clean
 
 ```
                        Design Pattern Distinctions
-                       
+
     Structural Wrapping                      Creational Selection
     ┌──────────────────────┐                 ┌──────────────────────┐
     │ Adapter:             │                 │ Factory Method:      │

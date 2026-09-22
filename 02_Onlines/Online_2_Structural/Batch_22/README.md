@@ -1,7 +1,7 @@
 # Online 2 (Structural Patterns): Batch 22
 
-**Batch:** CSE 22 (BUET)  
-**Exam Focus:** Structural Design Patterns  
+**Batch:** CSE 22 (BUET)
+**Exam Focus:** Structural Design Patterns
 
 ---
 

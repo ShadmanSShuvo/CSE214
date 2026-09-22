@@ -19,14 +19,14 @@ Structural design patterns are concerned with how classes and objects are compos
 
 ```
                        Structural Pattern Distinctions
-                       
+
     Interface Transformation                 Implementation Separation
     ┌─────────────────────────┐              ┌─────────────────────────┐
     │ Adapter:                │              │ Bridge:                 │
     │ Makes incompatible APIs │              │ Separates Abstraction  │
     │ work together           │              │ from Implementation     │
     └─────────────────────────┘              └─────────────────────────┘
-    
+
     Part-Whole Hierarchy                     Dynamic Feature Extension
     ┌─────────────────────────┐              ┌─────────────────────────┐
     │ Composite:              │              │ Decorator:              │

@@ -1,8 +1,8 @@
 # Offline 4: Official Submission Package (Student ID: 2305025)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 4 (Performance & Load Testing using Apache JMeter)  
-**Author:** Shadman S. Shuvo (`2305025`)  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 4 (Performance & Load Testing using Apache JMeter)
+**Author:** Shadman S. Shuvo (`2305025`)
 
 ---
 

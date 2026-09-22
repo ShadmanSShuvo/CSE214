@@ -1,7 +1,7 @@
 # Online 3 (Behavioral Patterns): Batch 22
 
-**Batch:** CSE 22 (BUET)  
-**Exam Focus:** Behavioral Design Patterns  
+**Batch:** CSE 22 (BUET)
+**Exam Focus:** Behavioral Design Patterns
 
 ---
 

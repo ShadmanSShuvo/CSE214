@@ -1,7 +1,7 @@
 # Online 1 (Creational Patterns): Batch 21
 
-**Batch:** CSE 21 (BUET)  
-**Exam Focus:** Creational Design Patterns  
+**Batch:** CSE 21 (BUET)
+**Exam Focus:** Creational Design Patterns
 
 ---
 

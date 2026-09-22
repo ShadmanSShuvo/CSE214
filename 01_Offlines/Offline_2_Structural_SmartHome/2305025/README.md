@@ -1,8 +1,8 @@
 # SmartHome Automation Hub: Official Submission (2305025)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 2 (Structural Design Patterns)  
-**Author:** Shadman S. Shuvo (`2305025`)  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 2 (Structural Design Patterns)
+**Author:** Shadman S. Shuvo (`2305025`)
 
 ---
 

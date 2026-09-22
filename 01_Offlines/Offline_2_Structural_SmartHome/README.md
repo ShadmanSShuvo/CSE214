@@ -1,9 +1,9 @@
 # Offline 2: SmartHome Automation Hub (Structural Patterns)
 
-**Course:** BUET CSE 214: Software Engineering Sessional  
-**Assignment:** Offline 2 (Structural Design Patterns)  
-**Student ID:** `2305025`  
-**Core Patterns:** **Composite Pattern**, **Decorator Pattern**  
+**Course:** BUET CSE 214: Software Engineering Sessional
+**Assignment:** Offline 2 (Structural Design Patterns)
+**Student ID:** `2305025`
+**Core Patterns:** **Composite Pattern**, **Decorator Pattern**
 
 ---
 
