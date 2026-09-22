@@ -15,6 +15,9 @@ replay_pid*
 *.zip
 *.tar.gz
 *.rar
+!Archives/
+!Archives/**
+!Archives/**/*.zip
 
 # Virtual Machine Crash Logs
 *.hprof
