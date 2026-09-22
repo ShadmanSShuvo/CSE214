@@ -8,25 +8,25 @@ This repository contains comprehensive solutions, source code, and question sets
 
 | Batch | Problem / Section | Domain Scenario | Pattern(s) Applied | Subfolder Location |
 | :---: | :---: | :--- | :--- | :--- |
-| **23** | **A1** | Gift Shop: Gift items, gift wrapping, multi-region & multi-mode shipping | **Decorator + Bridge/Strategy** | [`Batch_23/A1_GiftShop`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_23/A1_GiftShop) |
-| **23** | **B1** | Eid Gift Package System: Personal/Corporate packages, packaging options | **Composite + Strategy** | [`Batch_23/B1_GiftPackageComposite`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_23/B1_GiftPackageComposite) |
-| **23** | **B2** | Meal & Grocery Bundle: Food items, set menus, and nested grocery packages | **Composite** | [`Batch_23/B2_MealGroceryBundle`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_23/B2_MealGroceryBundle) |
-| **23** | **C1** | API Service: Legacy XML to JSON conversion with dynamic encryption & compression | **Adapter + Decorator** | [`Batch_23/C1_ApiResponseAdapterDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_23/C1_ApiResponseAdapterDecorator) |
-| **23** | **C2** | Customer Loyalty Programme: Membership tiers and orthogonal point redemption | **Bridge** | [`Batch_23/C2_LoyaltyProgrammeBridge`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_23/C2_LoyaltyProgrammeBridge) |
-| **22** | **A1** | IoT Security Device: Configurable notifications (Encryption, Priority, Logging) | **Decorator** | [`Batch_22/A1_IoTSecurityNotifierDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/A1_IoTSecurityNotifierDecorator) |
-| **22** | **A2** | ZBazar Subscription Grocery Bundles: Single items & custom nested bundles | **Composite** | [`Batch_22/A2_ZBazarGroceryComposite`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/A2_ZBazarGroceryComposite) |
-| **22** | **B1** | Dlachal Grocery: Event alerts (Confirmed, Dispatched, Failed) via Email/SMS/WhatsApp | **Bridge** | [`Batch_22/B1_DlachalNotificationBridge`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/B1_DlachalNotificationBridge) |
-| **22** | **B2** | Smart Home App: Controlling 3rd-party OldSmartBulb & LegacyHeater | **Adapter** | [`Batch_22/B2_SmartHomeDeviceAdapter`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/B2_SmartHomeDeviceAdapter) |
-| **22** | **C1** | ZBazar Ramadan Packages: Seasonal packages with Fruit, Sweet, & Gift wrap add-ons | **Decorator** | [`Batch_22/C1_RamadanPackageDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/C1_RamadanPackageDecorator) |
-| **22** | **C2** | ZBazar Logistics: Delivery types (Standard/Express) & transports (Bike/Van/Drone/Robot) | **Bridge** | [`Batch_22/C2_ZBazarDeliveryBridge`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_22/C2_ZBazarDeliveryBridge) |
-| **21** | **A1** | Weather Service: Adapting legacy weather data format to target client provider | **Adapter** | [`Batch_21/A1_WeatherServiceAdapter`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/A1_WeatherServiceAdapter) |
-| **21** | **A2** | Computer Hardware Bundles: Individual components & nested gaming setups | **Composite** | [`Batch_21/A2_HardwareBundleComposite`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/A2_HardwareBundleComposite) |
-| **21** | **B1** | Delivery Discounts: Stackable purchase discounts (Loyalty, Seasonal, High-Value) | **Decorator** | [`Batch_21/B1_DeliveryDiscountDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/B1_DeliveryDiscountDecorator) |
-| **21** | **B2** | Component Add-ons: Hardware warranty, installation, and performance upgrades | **Decorator** | [`Batch_21/B2_ComponentAddonDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/B2_ComponentAddonDecorator) |
-| **21** | **C1** | CoffeeTong Cafe: Dynamic beverage toppings and condiment customization | **Decorator** | [`Batch_21/C1_CoffeeTongDecorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/C1_CoffeeTongDecorator) |
-| **21** | **C2** | Database Query: Adapting NoSQL database queries to SQL `DatabaseQuery` interface | **Adapter** | [`Batch_21/C2_DatabaseQueryAdapter`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_21/C2_DatabaseQueryAdapter) |
-| **19** | **Adapter** | Audio Script Generator: Translating & adapting Bangla speech to English script | **Adapter** | [`Batch_19/ScriptGenerator_Adapter`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_19/ScriptGenerator_Adapter) |
-| **19** | **Decorator** | Hogwarts Potion System: Dynamic potion recipes, costs, weights, & penalties | **Decorator + Factory** | [`Batch_19/HogwartsPotions_Decorator`](file:///Users/shuvo/CSE214/02_Onlines/Online_2_Structural/Batch_19/HogwartsPotions_Decorator) |
+| **23** | **A1** | Gift Shop: Gift items, gift wrapping, multi-region & multi-mode shipping | **Decorator + Bridge/Strategy** | [`Batch_23/A1_GiftShop/`](Batch_23/A1_GiftShop/) |
+| **23** | **B1** | Eid Gift Package System: Personal/Corporate packages, packaging options | **Composite + Strategy** | [`Batch_23/B1_GiftPackageComposite/`](Batch_23/B1_GiftPackageComposite/) |
+| **23** | **B2** | Meal & Grocery Bundle: Food items, set menus, and nested grocery packages | **Composite** | [`Batch_23/B2_MealGroceryBundle/`](Batch_23/B2_MealGroceryBundle/) |
+| **23** | **C1** | API Service: Legacy XML to JSON conversion with dynamic encryption & compression | **Adapter + Decorator** | [`Batch_23/C1_ApiResponseAdapterDecorator/`](Batch_23/C1_ApiResponseAdapterDecorator/) |
+| **23** | **C2** | Customer Loyalty Programme: Membership tiers and orthogonal point redemption | **Bridge** | [`Batch_23/C2_LoyaltyProgrammeBridge/`](Batch_23/C2_LoyaltyProgrammeBridge/) |
+| **22** | **A1** | IoT Security Device: Configurable notifications (Encryption, Priority, Logging) | **Decorator** | [`Batch_22/A1_IoTSecurityNotifierDecorator/`](Batch_22/A1_IoTSecurityNotifierDecorator/) |
+| **22** | **A2** | ZBazar Subscription Grocery Bundles: Single items & custom nested bundles | **Composite** | [`Batch_22/A2_ZBazarGroceryComposite/`](Batch_22/A2_ZBazarGroceryComposite/) |
+| **22** | **B1** | Dlachal Grocery: Event alerts (Confirmed, Dispatched, Failed) via Email/SMS/WhatsApp | **Bridge** | [`Batch_22/B1_DlachalNotificationBridge/`](Batch_22/B1_DlachalNotificationBridge/) |
+| **22** | **B2** | Smart Home App: Controlling 3rd-party OldSmartBulb & LegacyHeater | **Adapter** | [`Batch_22/B2_SmartHomeDeviceAdapter/`](Batch_22/B2_SmartHomeDeviceAdapter/) |
+| **22** | **C1** | ZBazar Ramadan Packages: Seasonal packages with Fruit, Sweet, & Gift wrap add-ons | **Decorator** | [`Batch_22/C1_RamadanPackageDecorator/`](Batch_22/C1_RamadanPackageDecorator/) |
+| **22** | **C2** | ZBazar Logistics: Delivery types (Standard/Express) & transports (Bike/Van/Drone/Robot) | **Bridge** | [`Batch_22/C2_ZBazarDeliveryBridge/`](Batch_22/C2_ZBazarDeliveryBridge/) |
+| **21** | **A1** | Weather Service: Adapting legacy weather data format to target client provider | **Adapter** | [`Batch_21/A1_WeatherServiceAdapter/`](Batch_21/A1_WeatherServiceAdapter/) |
+| **21** | **A2** | Computer Hardware Bundles: Individual components & nested gaming setups | **Composite** | [`Batch_21/A2_HardwareBundleComposite/`](Batch_21/A2_HardwareBundleComposite/) |
+| **21** | **B1** | Delivery Discounts: Stackable purchase discounts (Loyalty, Seasonal, High-Value) | **Decorator** | [`Batch_21/B1_DeliveryDiscountDecorator/`](Batch_21/B1_DeliveryDiscountDecorator/) |
+| **21** | **B2** | Component Add-ons: Hardware warranty, installation, and performance upgrades | **Decorator** | [`Batch_21/B2_ComponentAddonDecorator/`](Batch_21/B2_ComponentAddonDecorator/) |
+| **21** | **C1** | CoffeeTong Cafe: Dynamic beverage toppings and condiment customization | **Decorator** | [`Batch_21/C1_CoffeeTongDecorator/`](Batch_21/C1_CoffeeTongDecorator/) |
+| **21** | **C2** | Database Query: Adapting NoSQL database queries to SQL `DatabaseQuery` interface | **Adapter** | [`Batch_21/C2_DatabaseQueryAdapter/`](Batch_21/C2_DatabaseQueryAdapter/) |
+| **19** | **Adapter** | Audio Script Generator: Translating & adapting Bangla speech to English script | **Adapter** | [`Batch_19/ScriptGenerator_Adapter/`](Batch_19/ScriptGenerator_Adapter/) |
+| **19** | **Decorator** | Hogwarts Potion System: Dynamic potion recipes, costs, weights, & penalties | **Decorator + Factory** | [`Batch_19/HogwartsPotions_Decorator/`](Batch_19/HogwartsPotions_Decorator/) |
 
 ---
 
