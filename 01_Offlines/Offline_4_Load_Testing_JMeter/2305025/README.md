@@ -13,8 +13,6 @@
 ├── 2305025_testPlan.jmx       # Validated Apache JMeter test plan XML
 ├── 2305025_Assessment.docx   # Formal evaluation and bottleneck report (Word document)
 ├── 2305025_Assessment.md     # Markdown transcription of evaluation metrics and report
-├── report1/                   # HTML performance dashboard: Profile 1 (50 threads)
-├── report2/                   # HTML performance dashboard: Profile 2 (100 threads)
 └── result/
     ├── 2305025_result1.csv   # Metric log: Profile 1 (50 concurrent threads, 100s ramp-up)
     └── 2305025_result2.csv   # Metric log: Profile 2 (100 concurrent threads, 100s ramp-up)

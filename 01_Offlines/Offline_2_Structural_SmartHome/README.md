@@ -80,10 +80,10 @@ Because decorators wrap components, decorator ordering produces distinct behavio
 | Folder / File | Description |
 | :--- | :--- |
 | **[`2305025/`](2305025/)** | **Official evaluated submission** (`SmartHome.java` and `SmartHomeTestRunner.java`). |
-| **[`fixed-after-IJ.java`](fixed-after-IJ.java)** | Alternative iterative implementation variant utilizing container device accessor methods. |
-| **[`SmartHome_Assignment.docx`](SmartHome_Assignment.docx)** | Official assignment specification in Microsoft Word format. |
-| **[`SmartHome_Assignment.pdf`](SmartHome_Assignment.pdf)** | Official assignment specification in PDF format. |
-| **[`SmartHome_Assignment.md`](SmartHome_Assignment.md)** | Structured markdown transcription of the assignment specification. |
+| **[`fixed-after-IJ.java`](fixed-after-IJ.java)** | Alternative implementation variant utilizing container device accessor methods. |
+| **[`SmartHome/`](SmartHome/)** | **Full-Stack Application** with Java backend and an interactive Vite + React + TypeScript web GUI. |
+| **[`Code/`](Code/)** | Baseline unrefactored spaghetti demonstration (`SmartHomeSpaghettiDemo.java`). |
+| **[`Spec/`](Spec/)** | Formal assignment specification documents (`.pdf` and `.docx`). |
 
 ---
 
@@ -102,3 +102,11 @@ cd 2305025
 javac *.java
 java SmartHomeTestRunner
 ```
+
+### Running the Full-Stack Web GUI
+```bash
+cd SmartHome/frontend
+npm install
+npm run dev
+```
+Navigate to `http://localhost:5173`.

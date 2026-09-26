@@ -81,9 +81,13 @@ If these offices interacted directly, an $O(N^2)$ tangled dependency web would e
 
 ## 📁 Directory Structure
 
-| Folder / File | Description |
+| Folder | Description |
 | :--- | :--- |
-| **[`2305025/`](2305025/)** | **Official evaluated submission package** containing modular `alert/` (Observer) and `result/` (Mediator) packages. |
+| **[`2305025/`](2305025/)** | **Official evaluated submission package** containing clean `alert/` and `result/` packages. |
+| **[`2305025v1/`](2305025v1/)** & **[`2305025v2/`](2305025v2/)** | Previous development iterations of student submission. |
+| **[`claude/`](claude/)** | Reference architectural implementation and documentation. |
+| **[`gpt/`](gpt/)** | Alternative exploration implementation. |
+| **[`files-v2/`](files-v2/)** | Initial problem templates and auxiliary source files. |
 | **[`CSE-214_Offline-3_Formatted.pdf`](CSE-214_Offline-3_Formatted.pdf)** | Formal assignment specification document. |
 
 ---

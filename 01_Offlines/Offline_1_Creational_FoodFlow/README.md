@@ -59,8 +59,10 @@
 
 | Subdirectory | Description |
 | :--- | :--- |
-| **[`2305025/`](2305025/)** | **Official evaluated submission package** containing pure Java implementation, unit test harness (`TestHarness.java`), spec, and CSV data. |
-| **[`Starter_Template/`](Starter_Template/)** | The baseline unrefactored skeleton provided by course instructors. |
+| **[`Submission_2305025/`](Submission_2305025/)** | **Official evaluated submission package** containing pure Java implementation, unit test harness, and CSV data. |
+| **[`FoodFlow/`](FoodFlow/)** | **Interactive Full-Stack Showcase** featuring the Java backend and a modern React 18 + Vite + Tailwind CSS graphical user interface. |
+| **[`Starter_Template_off1/`](Starter_Template_off1/)** | The baseline unrefactored skeleton provided by course instructors. |
+| **[`Web_Variant_off1web/`](Web_Variant_off1web/)** | Alternative web-oriented CLI variant. |
 
 ---
 
@@ -68,14 +70,22 @@
 
 ### Running the Official Submission CLI
 ```bash
-cd 2305025
+cd Submission_2305025
 javac src/*.java src/*/*.java
 java -cp src Main
 ```
 
-### Running the Automated Test Harness
+### Running the Submission Test Harness
 ```bash
-cd 2305025
+cd Submission_2305025
 javac -cp src TestHarness.java
 java -cp .:src TestHarness
 ```
+
+### Running the Full-Stack Web Interface (FoodFlow)
+```bash
+cd FoodFlow/frontend
+npm install
+npm run dev
+```
+Open `http://localhost:5173` in your browser.

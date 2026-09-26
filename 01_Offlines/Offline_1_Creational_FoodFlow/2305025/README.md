@@ -11,7 +11,7 @@
 The submission is organized into modular packages adhering to the Single Responsibility Principle:
 
 ```
-2305025/
+Submission_2305025/
 ├── src/
 │   ├── Main.java              # Application bootstrap & CLI launcher
 │   ├── cli/                   # User interface layer
