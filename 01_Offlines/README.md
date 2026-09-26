@@ -8,7 +8,7 @@ This directory contains the four major sessional offline assignments completed f
 
 | Assignment | Domain & Application | Core Patterns / Tools | Submission Directory | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **[Offline 1](Offline_1_Creational_FoodFlow/)** | **FoodFlow**: Restaurant Ordering & Menu Engine | **Builder**, **Factory Method**, **Singleton** | [`Submission_2305025/`](Offline_1_Creational_FoodFlow/Submission_2305025/) | **Completed** |
+| **[Offline 1](Offline_1_Creational_FoodFlow/)** | **FoodFlow**: Restaurant Ordering & Menu Engine | **Builder**, **Factory Method**, **Singleton** | [`2305025/`](Offline_1_Creational_FoodFlow/2305025/) | **Completed** |
 | **[Offline 2](Offline_2_Structural_SmartHome/)** | **SmartHome**: IoT Device, Room & Home Automation Hub | **Composite**, **Decorator** | [`2305025/`](Offline_2_Structural_SmartHome/2305025/) | **Completed** |
 | **[Offline 3](Offline_3_Behavioral_BDAlert_ResultCoord/)** | **BDAlert** (Disaster Warning) & **BUET Result Publication** | **Observer**, **Mediator** | [`2305025/`](Offline_3_Behavioral_BDAlert_ResultCoord/2305025/) | **Completed** |
 | **[Offline 4](Offline_4_Load_Testing_JMeter/)** | **Performance & Concurrency Profiling** on Web Endpoints | **Apache JMeter 5.6+**, Python | [`2305025/`](Offline_4_Load_Testing_JMeter/2305025/) | **Completed** |
@@ -23,10 +23,9 @@ This directory contains the four major sessional offline assignments completed f
   - **Builder Pattern:** Used for complex immutable `Order` and `OrderItem` construction, preventing telescoping constructor anti-patterns and enforcing rigorous business validations (e.g. mandatory delivery address when `DeliveryType == DELIVERY`, positive item quantities).
   - **Factory Method:** Dynamic creation of delivery handlers and receipt formats.
   - **Singleton Pattern:** Thread-safe menu catalog caching and pricing configuration.
-- **Variants Included:**
-  - `Submission_2305025/`: Official student submission package with automated test harness.
-  - `FoodFlow/`: Interactive full-stack application featuring a Java backend and a modern React/Vite/Tailwind CSS interactive GUI.
-  - `Starter_Template_off1/` & `Web_Variant_off1web/`: Starter codebase and web-oriented template variants.
+- **Directory Structure:**
+  - `2305025/`: Official student submission package with automated test harness, domain models, and menu data.
+  - `Starter_Template/`: Course starter template skeleton provided by instructors.
 
 ---
 
@@ -42,6 +41,7 @@ This directory contains the four major sessional offline assignments completed f
     - `EcoMode`: Dynamically sheds devices in reverse installation order when aggregate room/home power exceeds a defined budget.
     - `GuestMode`: Silently restricts operation of prohibited device types for guests while isolating authorized controls.
 - **Verification Demos:** Demos A through F proving composition over inheritance, decorator stacking order sensitivity, and uniform tree manipulation.
+- **Directory Structure:** Official evaluated submission in `2305025/`, iterative variant `fixed-after-IJ.java`, and assignment specifications (`SmartHome_Assignment.docx`, `.md`, `.pdf`).
 
 ---
 
@@ -52,6 +52,7 @@ This directory contains the four major sessional offline assignments completed f
 - **Task 2 — BUET Final Result Publication (Mediator Design Pattern):**
   - **Domain:** Multi-stage graduation result processing involving Controller of Examinations, Department Office, Directorate of Students' Welfare (DSW), and graduating Students.
   - **Mechanism:** Decouples the 4 colleague entities through `ResultProcessingCoordinator`. Enforces strict state machines: Departmental clearance $\to$ Controller office order $\to$ DSW testimonial $\to$ Official certificate & transcript issuance.
+- **Directory Structure:** Official evaluated submission in `2305025/` (modular `alert/` and `result/` packages) and formatted assignment spec (`CSE-214_Offline-3_Formatted.pdf`).
 
 ---
 
@@ -62,4 +63,4 @@ This directory contains the four major sessional offline assignments completed f
   - **High Load Profile:** 100 concurrent threads, 100s ramp-up period, 5 sequential target endpoints.
   - **Tested Endpoints:** Home Page (`GET /`), Notice Board (`GET /notices`), Course Catalogue (`GET /courses`), User Authentication (`POST /login`), Bandwidth Streaming (`GET /api/download/256`).
   - **Analysis:** Duration assertions, latency percentiles, error rate analysis, and automated HTML dashboard generation.
-- **Key Deliverables:** Test plans (`.jmx`), comprehensive assessment report (`.docx` & `.md`), and empirical CSV metric outputs.
+- **Key Deliverables:** Official submission in `2305025/` containing test plans (`2305025_testPlan.jmx`), comprehensive assessment report (`.docx` & `.md`), metric logs (`result/`), and HTML report dashboards (`report1/`, `report2/`).

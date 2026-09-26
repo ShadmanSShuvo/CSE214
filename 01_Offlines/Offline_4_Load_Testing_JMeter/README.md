@@ -65,13 +65,11 @@ Two workload conditions were executed to observe scalability curves:
 
 ---
 
-## 📁 Subdirectory Map
+## 📁 Directory Structure
 
 | Directory / File | Description |
 | :--- | :--- |
-| **[`2305025/`](2305025/)** | **Official evaluated submission package** containing test plans, CSV results, and formal assessment reports. |
-| **[`JMeter-Practice/`](JMeter-Practice/)** | Experimental workbench with test plan variations and HTML dashboards. |
-| **[`JMeter-Practice/automation_and_drafts/`](JMeter-Practice/automation_and_drafts/)** | Automated Python test runner (`run_load_test.py`), intermediate certificates, and drafts. |
+| **[`2305025/`](2305025/)** | **Official evaluated submission package** containing test plans (`2305025_testPlan.jmx`), assessment reports (`.docx` & `.md`), raw metrics (`result/`), and generated HTML dashboards (`report1/`, `report2/`). |
 | **[`CSE214-offline-4-load-testing.pdf`](CSE214-offline-4-load-testing.pdf)** | Formal course specification and evaluation criteria. |
 | **[`jmeter-slide.pdf`](jmeter-slide.pdf)** | Lecture slides on software performance testing and Apache JMeter. |
 
